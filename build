@@ -1,0 +1,4 @@
+#!/bin/bash
+docker build -t abrakadabra21099/firewall-any-direction -t abrakadabra21099/firewall-any-direction:0.1 .
+docker push abrakadabra21099/firewall-any-direction
+docker push abrakadabra21099/firewall-any-direction:0.1
