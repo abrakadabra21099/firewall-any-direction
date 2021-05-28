@@ -1,7 +1,5 @@
 #!/bin/ash
 
-sleep 3
-
 #Проверяем корректность переменных окружения
 [ -z "$INT_IF" ] && echo 'INT_IF not defined.' && exit 2
 [ -z "$EXT_IF" ] && echo 'EXT_IF not defined.' && exit 3
